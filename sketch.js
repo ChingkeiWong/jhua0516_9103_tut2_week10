@@ -47,7 +47,7 @@ function draw() {
     translate(x, y, curH / 2);
     rotateX(PI / 2);
     let c1 = color(170, 245, 255); // Light blue
-    let c2 = color(255, 222, 250); // Light pink
+    let c2 = color(255, 185, 185); // Light red
     let rate = map(a, 0, TWO_PI, 0, 0.5);
     let col = lerpColor(c1, c2, rate); // Color gradient
     stroke(col);
